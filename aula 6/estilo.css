@@ -1,0 +1,26 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+
+}
+#banner{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-link{
+    color: crimson;
+    font-size: 30px;
+
+}
+a.nav-link{
+    color: rgb(20, 180, 220);
+}
+a.nav-link:hover{
+    color: rgb(190, 220, 20);
+}
+.bg-light{
+color: deeppink;
+}

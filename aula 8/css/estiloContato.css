@@ -1,0 +1,57 @@
+* body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+a.nav-link{
+    color: white;
+    font-weight: bold;
+}
+a.nav-link:hover{
+    color: #ef662f;
+}
+.topo{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.linha{
+    width: 100%;
+    height: 3px;
+    color: gray;
+}
+.textoRodape{
+    font-size: 20px; 
+    text-align: center; 
+    color: white; 
+    margin-top: 50px;
+}
+.rodape{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(186, 186, 186);
+}
+.btn{
+    color: #ef662f;;
+}
+@media(max-width:768px) {
+    a.nav-link{
+        color: white;
+        font-weight: bold;
+    }
+    a.nav-link:hover{
+        color: orange;
+
+    }
+    .topo{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .nav-item{
+        font-size: 12px;
+    }
+}

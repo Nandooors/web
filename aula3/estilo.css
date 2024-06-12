@@ -1,0 +1,78 @@
+* body {
+margin: 0px;
+padding: 0px;
+
+#background{
+    background-color: rgb(61, 11, 11);
+}
+}
+#containerTopo{
+    width: 980px;  /*largura */
+    height: 150px;  /*altura */
+    background-color: rgb(156, 85, 85);  /*cor de fundo */
+    margin: auto;  /*centralizado */
+}
+#logo{
+    width: 200px;  /*largura */
+    height: 150px;  /*altura */
+    /*background-color: rgb(104, 0, 0);  cor de fundo */
+    float: left;  /*centralizado */
+    
+}
+#logo img{
+    margin: 0px 0px 5px 0px;
+    width: 190px;
+    height: 170px;
+    float: left;
+}
+#menu{
+    width: 780px;  /*largura */
+    height: 150px;  /*altura */
+  /*  background-color: rgb(155, 86, 86);  cor de fundo */
+    float: right;
+    text-align: left;
+    word-spacing: 5px;
+    font-size: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: rgb(238, 238, 255);
+
+}
+#banner{
+    width: 1000px;  /*largura */
+    height: 400px;  /*altura */
+   /* background-color: rgb(58, 115, 190);  cor de fundo */
+    background-image: url(giphy.gif);
+    margin: auto;
+    margin-top: 20px;
+}
+#conteudo{
+width: 980px;  /*largura */
+height: 1000px;  /*altura */
+background-color: rgb(143, 45, 45);  /*cor de fundo */
+margin: auto;
+}
+#esquerda {
+width: 430px;  /*largura */
+height: 480px;  /*altura */
+/*background-color: rgb(65, 0, 0);  cor de fundo */
+background-image: url(flamengo\ esquerda.jpg);
+float: left;
+margin-top: 70px;
+margin-left: 20px;
+}
+#direita {
+    width: 430px;  /*largura */
+    height: 480px;  /*altura */
+    /*background-color: rgb(65, 0, 0);  cor de fundo */
+    background-image: url(flamengo\ direita.png);
+    float: right;
+    margin-top: 70px;
+    margin-right: 20px;
+    }
+    #rodape{
+        width: 3000px;  /*largura */
+        height: 480px;  /*altura */
+        background-image: url(flamengo.webp); 
+    margin: auto;   }
